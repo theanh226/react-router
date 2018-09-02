@@ -33,3 +33,7 @@
 .hover-link:hover{
   color: aquamarine !important;
 }
+/* you can use this method to change style of active link */
+.active{
+  color: aquamarine !important;
+}
