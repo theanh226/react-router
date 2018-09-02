@@ -11,11 +11,15 @@ class App extends Component {
         <div className="App">
           <nav className="navbar navbar-dark bg-dark">
             <ul className="nav navbar-nav d-flex flex-row w-75">
-              <li className="active cursor-pointer text-white mr-2 hover-link">
-                <Link to="/">Home</Link>
+              <li className="active cursor-pointer text-white mr-2 ">
+                <Link to="/" className="text-white hover-link">
+                  Home
+                </Link>
               </li>
               <li className="cursor-pointer text-white hover-link">
-               <Link to="/about">About</Link>
+                <Link to="/about" className="text-white hover-link">
+                  About
+                </Link>
               </li>
             </ul>
           </nav>
