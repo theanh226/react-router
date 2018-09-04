@@ -8,6 +8,11 @@ const menus = [
     exact: true
   },
   {
+    label: "Products",
+    to: "/products",
+    exact: false
+  },
+  {
     label: "About",
     to: "/about",
     exact: false
@@ -45,6 +50,8 @@ class Menu extends Component {
       </div>
     );
   }
+
+  //Function
   showMenu = menus => {
     var result = null;
     if (menus.length > 0) {
