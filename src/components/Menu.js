@@ -13,6 +13,11 @@ const menus = [
     exact: false
   },
   {
+    label: "Login",
+    to: "/login",
+    exact: false
+  },
+  {
     label: "About",
     to: "/about",
     exact: false

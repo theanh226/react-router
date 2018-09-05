@@ -24,6 +24,8 @@ class Products extends Component {
       }
     ];
 
+    var { location } = this.props;
+    console.log(location);
     return (
       <div className="Container">
         <h2 className="text-warning mt-2 mb-2">This is Products Page</h2>
